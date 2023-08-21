@@ -19,6 +19,5 @@ function compare(result){
         document.getElementById("CompareBMI").innerHTML = "อ้วน ภาวะน้ำหนักเกินมาก มีโรคแทรกซ้อนในระยะอ้วนเริ่มต้น"
     }else if(result > 29.9){
         document.getElementById("CompareBMI").innerHTML = "อ้วนมาก ภาวะน้ำหนักเกินมากที่สุดโอกาสการเกิดโรคแทรกซ้อนอย่าง โรคอ้วน"
-    }
-
+    } 
 }
